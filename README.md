@@ -1,24 +1,21 @@
-# README
+こちらを参考にしてやってみる
+http://qiita.com/jnchito/items/30ab14ebf29b945559f6
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+$ gem install rails
 
-Things you may want to cover:
+$ rails -v
+Rails 5.1.1
 
-* Ruby version
+$ rails new rails-vue-sandbox --webpack=vue
 
-* System dependencies
+$ cd rails-vue-sandbox
+$ rails s
+```
 
-* Configuration
+http://localhost:3000
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ brew install yarn
+$ rails webpacker:install
+```
